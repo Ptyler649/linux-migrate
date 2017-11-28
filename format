@@ -1,0 +1,17 @@
+fdisk -l | grep '^Disk'  --  lists all detected hard disks
+fdisk /dev/sdb -- fdisk commands n create a new partition etc
+mkfs.ext3 /dev/sdb1 -- formats the new disk using ext3
+
+then to mount the new using mount command
+mkdir /disk1
+mount /dev/sdb1 /disk1
+df -H
+
+then update the fstab file
+vi /etc/fstab
+append the following
+/dev/sdb1	/disk1	ext3	default	1 2
+
+then label the partition
+e2label /dev/sdb1 /backup
+
