@@ -1,0 +1,5 @@
+- download iso
+- go to system > administration -> startup disk creator
+	and point to iso and the target usb
+- restart system, go to bios and boot from usb
+- install and configure
