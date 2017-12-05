@@ -5,12 +5,14 @@
 - install and configure
 
 - install vim, sudo apt-get install vim
+
 - install git 
 	- sudo add-apt-repository ppa:git-core/ppa
 	- sudo apt-get update
 	- sudo apt-get install git
   then git --version
   then git clone <repo url from github>
+  then git config --global user.email "ptyler649@gmail.com"
 
 - themes
 	- to change themes go to applications > utilites > tweaks
