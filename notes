@@ -3,3 +3,27 @@
 	and point to iso and the target usb
 - restart system, go to bios and boot from usb
 - install and configure
+
+- install vim, sudo apt-get install vim
+- install git 
+	- sudo add-apt-repository ppa:git-core/ppa
+	- sudo apt-get update
+	- sudo apt-get install git
+  then git --version
+  then git clone <repo url from github>
+
+- themes
+	- to change themes go to applications > utilites > tweaks
+	- change appearance setting
+	- enable arc, and then curson and icons dmz-black
+	- to enable shell extensions, go to extensions in tweak tool and
+	  and enable user themes, restart tweaks took and select arc theme
+
+- install arc dark theme
+	- sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04/ /' >> /etc/apt/sources.list.d/arc-theme.list"
+	- sudo apt-get update && sudo apt-get install arc-theme	
+    	- Open Unity Tweak Tool
+    	- Go to Appearance > Theme
+    	- Select ‘Arc’
+
+
