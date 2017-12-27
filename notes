@@ -23,10 +23,23 @@
 
 - install arc dark theme
 	- sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04/ /' >> /etc/apt/sources.list.d/arc-theme.list"
-	- sudo apt-get update && sudo apt-get install arc-theme	
-    	- Open Unity Tweak Tool
+	- sudo apt-get update
+	- sudo apt-get install arc-theme	
+    	- Open Gnome Tweak Tool
     	- Go to Appearance > Theme
-    	- Select ‘Arc’
+    	- Select ‘Arc-dark’
 
 - for keyboard @" symbols, go to settings add english uk and apply and remove the us english version or choose on install
+
+- install canon printer
+ - http://support-asia.canon-asia.com/contents/ASIA/EN/0100690202.html 
+install printer from downloads folder
+cd Downloads
+tar -zxvf cnijfilter2-5.20-1-deb.tar.gz
+cd cnijfilter2-5.20-1-deb
+sudo ./install.sh
+
+
+
+
 
