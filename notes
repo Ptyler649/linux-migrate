@@ -39,6 +39,14 @@ tar -zxvf cnijfilter2-5.20-1-deb.tar.gz
 cd cnijfilter2-5.20-1-deb
 sudo ./install.sh
 
+- change wallpaper
+download wallpaper into pictures
+open and set on right click and check
+then set on lock screen by
+	cd /usr/share/backgrounds
+	sudo cp /home/ptyler649/Pictures/Wallpapers/*.jpg .
+	go to tweak took and set lock screen
+
 
 
 
